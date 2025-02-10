@@ -12,3 +12,8 @@ manager.add_product(Product("Căști", 150, 20))
 # Afișăm produsele și valoarea totală a inventarului
 manager.display_products()
 print(manager.total_inventory_value())
+# Testăm eliminarea unui produs
+manager.remove_product("Telefon")
+
+# Afișăm din nou lista de produse pentru a verifica eliminarea
+manager.display_products()
