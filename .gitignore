@@ -1,1 +1,13 @@
+# Ignoră fișierele de configurare sensibile
+config.json
+
+# Ignoră cache-ul Python
 __pycache__/
+
+# Ignoră capturile de ecran (dacă folosești imagini)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
